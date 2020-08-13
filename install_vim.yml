@@ -1,0 +1,19 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install vim Ubuntu servers
+    apt:
+      name: 
+        - vim-nox
+      state: absent
+    when: ansible_distribution == "Ubuntu"
+
+  - name: install vim CentOS servers
+    dnf:
+      name: 
+        - vim
+      state: absent
+    when: ansible_distribution == "CentOS"
