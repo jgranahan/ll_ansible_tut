@@ -1,16 +1,16 @@
 [web_servers]
-10.0.0.128 hostname=gandalf
-10.0.0.53 hostname=two_blue_wizards
+10.0.0.128 
+10.0.0.53 
 
 [db_servers]
-10.0.0.54 hostname=saruman
+10.0.0.54
 
 [file_servers]
-10.0.0.124 hostname=radagast
+10.0.0.124
 
 [crank_servers]
-10.0.0.128 hostname=gandalf
-10.0.0.124 hostname=radagast
+10.0.0.128
+10.0.0.124
 
 [workstations]
-10.0.0.31 hostname=treebeard
+10.0.0.31
